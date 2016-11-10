@@ -1,3 +1,3 @@
-BUILD="d6c1e85572e6"
+BUILD="5587db187752"
 
-docker run -it --rm $BUILD /bin/bash
+docker run -it --rm -v `pwd`/a:/a  $BUILD /bin/bash
