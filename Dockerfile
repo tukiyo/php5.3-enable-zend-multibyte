@@ -70,7 +70,7 @@ RUN rpmbuild -ba "/root/rpmbuild/SPECS/php.spec"
 #---------
 # local-pear
 #---------
-RUN /usr/local/php/bin/pear install DB-1.8.2 \
+RUN /usr/local/php/bin/pear install DB-1.7.14 \
  && /usr/local/php/bin/pear install Var_Dump
 
 WORKDIR /usr/local
